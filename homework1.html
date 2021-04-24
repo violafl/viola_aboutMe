@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homework.css">
+    <title>Homework1</title>
+</head>
+
+<body style="background-color: #F7DBDB;margin: 0px;">
+    <section style="background-color: #F4B9BA;position: sticky;top: 0px;z-index: 1999;height: 80px;">
+        <div
+            style="font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;padding-top:auto;padding-bottom: auto;color: #874344;">
+            Welcome to My Page!!
+        </div>
+    </section>
+    <section
+        style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align: center;color: #874344;">
+        <div>
+            My Profile</div>
+        <div style="text-align: center;">
+            <img src="ava.png" style="width: 100px;" alt="">
+            <div style="font-size: 30px;">Viola Florenza <br> 吳秀英 </div>
+            <div style="font-size: 13px;">24 y.o</div>
+        </div>
+        <div style="text-align: right; position: sticky;top: 0px;z-index: 1999;height: 80px;">
+            <img src="line.png" alt="" style="width: 60px;height: auto;">
+        </div>
+    </section>
+    <section>
+        <div class="head">My Hobbies</div>
+        <div class="main">
+            <div class="box">
+                <img src="swim.jpeg" alt="">
+                <div>Swimming</div>
+            </div>
+            <div class="box">
+                <img src="travel.jpg" alt="">
+                <div>Traveling</div>
+            </div>
+            <div class="box">
+                <img src="read.png" alt="">
+                <div>Reading</div>
+            </div>
+            <div class="box">
+                <img src="eat.png" alt="">
+                <div>Eating</div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="head">Let's Have Some Quiz!<br>Comming Soon</div>
+        <div class="main">
+            <div class="box2" id="multiplication">
+                <div>Multiplication<br>(x)</div>
+            </div>
+            <div class="box2">
+                <div>Division<br>(:)</div>
+            </div>
+            <div class="box2">
+                <div>Subtraction<br>(-)</div>
+            </div>
+            <div class="box2">
+                <div>Addition<br>(+)</div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let money = prompt("Please input number between 100 and 1000", "");
+        money = parseInt(money);
+        if (money <= 100) {
+            alert("Oh noo! Cannot input number under 100!");
+        } else if(money >= 1000){
+            alert("Oh noo! Cannot input number more than 1000!");
+        } else {
+            alert("Yeay! You are so smart! Welcome to my page!");
+        }
+    </script>
+</body>
+
+</html>
